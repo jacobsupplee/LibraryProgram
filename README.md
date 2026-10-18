@@ -1,35 +1,25 @@
 # Python Library Catalog
 
-This is a small Python command-line program for keeping track of books in a library. You can view which books are available, borrow a book, and return it. The program uses a menu to let you choose what to do and checks for invalid selections.
+A command-line app for managing a library's book inventory. Track which books are available or borrowed, and use the menu to borrow and return books.
 
 ## Features
 
 - View available and borrowed books
-- Borrow a book from the available list
-- Return a borrowed book
+- Borrow and return books
 - Validate menu choices and book selections
 - Handle invalid input and empty lists
 
-## Built with
+## Built With
 
 - Python 3
 - Lists and collection operations
 - Functions and control flow
-- Exception handling
-- Command-line menus
+- Input validation and exception handling
 
-## Running it
-
-Make sure Python 3 is installed, then run this from the project directory:
+## Run
 
 ```bash
 python LibraryProgram.py
 ```
 
-No extra packages are required.
-
-## Notes
-
-The program keeps track of books using in-memory lists, so the changes are lost when you close it. It doesn't have a database, user accounts, or due-date tracking yet.
-
-This project gave me practice with Python functions, managing collections, validating user input, and building a menu-driven program. Saving the inventory between runs would be a good next step.
+No third-party packages are required.
